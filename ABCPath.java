@@ -4,7 +4,7 @@ import java.util.List;
 public class ABCPath {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		/*
 		 * String [] grid = { "ABE", "CFG", "BDH", "ABC" };
 		 */
