@@ -83,11 +83,13 @@ public class MaximumNumberOfEventsThatCanBeAttended {
 	                return event[1] - event2[1];
 	            }
 	        }); //nlogn: since each event is added only once as you'll see below
+	        
 	        int ans = 0;
 	        int day = 1;
 	        int index = 0;
 	        
-	        while(day <= totalDays){
+	        while(day <= totalDays) {
+	        	
 	            //browse ongoing meetings and add to pq
 	            while(index < events.length && events[index][0] <= day && day <= events[index][1]) {
 	                pq.add(events[index]);
